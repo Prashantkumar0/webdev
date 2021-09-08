@@ -2,4 +2,12 @@ let a=10;
 function sayhi(){
     console.log("function says hi");
 }
-sayhi();
+
+function sayhii(){
+    console.log("i am a argument")
+}
+function different(cb){
+    cb();
+}
+different(sayhii);
+
