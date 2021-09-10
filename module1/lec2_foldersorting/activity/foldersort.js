@@ -55,6 +55,6 @@ function sortFile(file){
     // CheckExtensionFolder(extension);
     let extensionFolderName=CheckExtensionFolder(extension);
     moveFile(file , extensionFolderName);
-    }
+    } 
     
   
