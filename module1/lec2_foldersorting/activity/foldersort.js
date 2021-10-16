@@ -22,7 +22,7 @@ function CheckExtensionFolder(extension){
     let extensionFolderName=testFolderPath;
     for(let key in extensionMapping){
         let extensions = extensionMapping[key];
-        if(extensions.includes(extensions)){
+        if(extensions.includes(extension)){
             extensionFolderName=extensionFolderName+"/"+key;
             break;
         }
